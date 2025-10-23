@@ -91,7 +91,7 @@
         display: flex;
         overflow-x: auto;
         overflow-y: visible;
-        scrollbar-width: none;
+        scrollbar-width: 1px;
         flex-flow: row nowrap;
         scroll-snap-type: x mandatory ;
         height: auto;
@@ -710,4 +710,5 @@
 
 
 }
+
 
