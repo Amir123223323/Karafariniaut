@@ -90,15 +90,15 @@
         position: relative;
         display: flex;
         overflow-x: auto;
-        scrollbar-width: none;
+        overflow-y: scroll;
+        scrollbar-width: 5px;
         flex-flow: row nowrap;
         scroll-snap-type: x mandatory ;
         height: auto;
         scroll-behavior:smooth;
         -webkit-overflow-scrolling: touch;
         overscroll-behavior-x: contain;
-        touch-action: pan-x;
-        
+        touch-action: pan-x pan-y;
     }
     .item{
         scroll-snap-align: start;
@@ -720,6 +720,7 @@
     .About{
         height: auto;
     }
+
 
 
 }
