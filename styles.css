@@ -90,6 +90,7 @@
         position: relative;
         display: flex;
         overflow-x: auto;
+        overflow-y: auto;
         scrollbar-width: none;
         flex-flow: row nowrap;
         scroll-snap-type: x mandatory ;
@@ -705,6 +706,7 @@
     .About{
         height: auto;
     }
+
 
 
 }
