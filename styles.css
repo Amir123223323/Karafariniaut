@@ -90,8 +90,8 @@
         position: relative;
         display: flex;
         overflow-x: auto;
-        overflow-y: visible;
-        scrollbar-width: 1px;
+        overflow-y: scroll;
+        scrollbar-width: 5px;
         flex-flow: row nowrap;
         scroll-snap-type: x mandatory ;
         height: auto;
@@ -710,5 +710,6 @@
 
 
 }
+
 
 
